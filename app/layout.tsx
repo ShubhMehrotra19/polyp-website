@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" style={{backgroundColor: 'black', scrollbarWidth: 'none', scrollBehavior: 'smooth'}}>
+    <html lang="en" style={{backgroundColor: 'black', scrollbarWidth: 'none', scrollBehavior: 'smooth', userSelect: 'none'}}>
       <body className={inter.className}>{children}</body>
     </html>
   );
