@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Polyp Detection",
-  description: "we're committed to advancing healthcare through innovation and excellence. With Polyp Detection with Poly v5, we strive to empower healthcare professionals with cutting-edge tools to improve patient care and outcomes.",
+  description: "in this site, we're committed to advancing healthcare through innovation and excellence. With Polyp Detection with Poly v5, we strive to empower healthcare professionals with cutting-edge tools to improve patient care and outcomes.",
 };
 
 export default function RootLayout({
