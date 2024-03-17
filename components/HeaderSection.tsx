@@ -6,7 +6,7 @@ import React from 'react'
 export default function HeaderSection() {
 
   return (
-    <div className="relative w-full h-screen flex flex-col justify-center items-center">
+    <div className="relative w-full h-screen flex flex-col md:justify-center justify-start items-center">
       <div className="relative isolate z-0 px-6 pt-14 lg:px-8">
         <div className="relative mx-auto max-w-6xl py-24">
           <div className="absolute inset-x-0 left-40 -z-10 transform-gpu overflow-hidden blur-3xl md:-top-[20rem]">
@@ -42,10 +42,10 @@ export default function HeaderSection() {
             <p className="mt-6 text-lg leading-8 text-gray-300">
               Working with images and making precise outputs through them is what we do here. 
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-2">
+            <div className="mt-10 flex items-center justify-center gap-x-5">
               <button
                 type="button"
-                className="rounded-md bg-black hover:bg-transparent hover:ring-white transition duration-300 ease-in-out hover:ring-1 hover:text-white px-3 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                className="rounded-md bg-black hover:bg-transparent hover:ring-white transition duration-300 ease-in-out hover:scale-105 active:scale-95 hover:ring-1 hover:text-white px-3 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
               >
                 Visit Github
               </button>

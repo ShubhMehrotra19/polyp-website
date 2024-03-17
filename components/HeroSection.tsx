@@ -20,8 +20,8 @@ export default function HeroSection() {
             </button>
           </div>
         </div>
-        <div className="rounded-lg bg-gray-400 p-2">
-        <iframe className='w-full rounded-md hover:scale-[98%] duration-300 transition ease-in-out' height='600px' src="https://www.youtube.com/embed/kQK092Blth8?si=NPIl6jzCOogQcOfS" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+        <div className="rounded-lg bg-gray-400 p-2 md:w-full md:mx-0 mx-10 md:h-full">
+        <iframe className='w-full rounded-md hover:scale-[98%] duration-300 transition ease-in-out md:h-[600px] h-[450px]' src="https://www.youtube.com/embed/kQK092Blth8?si=NPIl6jzCOogQcOfS" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         </div>
       </div>
     </div>
